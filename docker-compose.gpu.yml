@@ -2,8 +2,6 @@ services:
   omniparser:
     build:
       context: .
-      args:
-        DOWNLOAD_WEIGHTS: "0"
     ports:
       - "8000:8000"
     deploy:
