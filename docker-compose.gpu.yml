@@ -1,5 +1,6 @@
 services:
   omniparser:
+    containor_name: omniparser
     build:
       context: .
     ports:
